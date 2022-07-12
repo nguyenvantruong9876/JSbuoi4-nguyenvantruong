@@ -115,7 +115,7 @@ document.getElementById("btnChaoHoi").onclick = chaohoi;
  * B4: Thông báo kết quả ở website
  *
  *Khối 3:Kết quả (Output)
- thoogn báo có nhiêu chẵn lẻ
+ thoong báo có nhiêu chẵn lẻ
  */
 function chanle() {
     var so1 = Number(document.getElementById("num1bai3").value);
@@ -148,7 +148,7 @@ document.getElementById("btnbai3").onclick = chanle;
  * B4: Thông báo kết quả ở website
  *
  *Khối 3:Kết quả (Output)
- *  document.getElementById('ketQua').innerHTML
+ *  kq = (kết quả)
  */
 function doanhinhtamgiac() {
     var a = Number(document.getElementById("Canh1").value);
