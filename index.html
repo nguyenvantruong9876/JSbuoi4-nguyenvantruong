@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <title>jsbuoi4</title>
+</head>
+
+<body>
+  <!-- bai1 -->
+  <div class="container w-50 py-5" id="bai1">
+    <form>
+      <div class="form-group">
+        <label for="num1">Nhập số thứ 1 </label>
+        <input type="number" class="form-control" id="num1">
+      </div>
+      <div class="form-group">
+        <label for="num2">Nhập số thứ 2</label>
+        <input type="number" class="form-control" id="num2">
+      </div>
+      <div class="form-group">
+        <label for="num3">Nhập số thứ 3</label>
+        <input type="number" class="form-control" id="num3">
+      </div>
+      <button type="button" id="btnbai1" class="btn btn-success">Sắp Xếp</button>
+    </form>
+    <p class="alert alert-info" id="txtResultbai1"></p>
+  </div>
+
+
+  <!-- bai2 -->
+  <div class="container w-50 " id="bai2">
+    <form class="row gy-3 px-2 mt-5">
+      <h4 class="mt-3 mb-3">Chương trình "Chào hỏi"</h4>
+      <div class="form-group col-12 col-lg-4 mt-3 mb-3">
+        <select class="form-control" name="" id="Listoption">
+          <option value="">Chọn thành viên</option>
+          <option value="Bo">Bố</option>
+          <option value="Me">Mẹ</option>
+          <option value="Anh">Anh Trai</option>
+          <option value="Em">Em Gái</option>
+        </select>
+      </div>
+      <div class="row gy-3 px-2 mt-3 mb-3">
+        <div class="col-12  ">
+          <button class="btn btn-success me-3 mb-3" type="button" id="btnChaoHoi">
+            Gửi lời chào
+          </button>
+        </div>
+        <div class="col-12 ">
+          <div class="alert alert-primary">
+            <span id="txtchaoHoi">&#8205</span>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+  <!-- bai3 -->
+  <div class="container w-50 py-5" id="bai3">
+    <form>
+      <div class="form-group">
+        <label for="num1">Nhập số thứ 1 </label>
+        <input type="number" class="form-control" id="num1bai3">
+      </div>
+      <div class="form-group">
+        <label for="num2">Nhập số thứ 2</label>
+        <input type="number" class="form-control" id="num2bai3">
+      </div>
+      <div class="form-group">
+        <label for="num3">Nhập số thứ 3</label>
+        <input type="number" class="form-control" id="num3bai3">
+      </div>
+      <button type="button" id="btnbai3" class="btn btn-success">Đếm</button>
+    </form>
+    <p class="alert alert-info" id="txtResultbai3"></p>
+  </div>
+
+  <!-- bai4 -->
+  <div class="container w-50 " id="bai4">
+    <form class="row gy-3  px-2 mt-5">
+      <h4 class="mt-3 mb-3">Xác định loại tam giác</h4>
+      <div class="col-12">
+        <input type="text" class="form-control " id="Canh1" placeholder="Nhập độ dài cạnh 1" />
+      </div>
+      <div class="col-12">
+        <input type="text" class="form-control " id="Canh2" placeholder="Nhập độ dài cạnh 2" />
+      </div>
+      <div class="col-12">
+        <input type="text" class="form-control " id="Canh3" placeholder="Nhập độ dài cạnh 3" />
+      </div>
+
+      <div class="row gy-3 mt-5">
+        <div class="col-12 col-lg-2">
+          <button class="btn btn-success me-1 mb-1" type="button" id="btnKetqua">
+            Kết quả
+          </button>
+        </div>
+        <div class="col-12 ">
+          <div class="alert alert-primary">
+            <span id="txtketQua">&#8205</span>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  </div>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
