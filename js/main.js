@@ -133,13 +133,13 @@ document.getElementById("btnbai3").onclick = chanle;
 
 /**bai4
  * Khối 1: Dữ liệu đang có sẵn (Input)
- * Chiều dài 3 cạnh (canh1, canh2 ,canh3 , được lấy ra từ form)
+ * Chiều dài 3 cạnh (canh1 -> a, canh2 ->b ,canh3 -> c , được lấy ra từ form)
  * Khối 2:Các bước xử lý code
- * B1: Tạo biến canh1, canh2 ,canh3
+ * B1: Tạo biến canh1 ->a, canh2 ->b ,canh3 ->c
  * B2: Gan giá trị cho biến
  * B3: Lập công thức tính toán
- *     - Nếu canh1 == canh2 && canh2 == canh3 thì đó là tam giác đều
- *     - Nếu canh1 == canh2 || canh2 == canh3 || canh1 == canh3
+ *     - Nếu a == b && b == c thì đó là tam giác đều
+ *     - Nếu a == b || b == c || a == c
  *       thì đó là tam giác cân
  *     - Nếu có 1 cạnh bằng căn bậc 2 của tổng bình phương 2 cạnh còn lại
  *       thì đó là tam giác vuông
